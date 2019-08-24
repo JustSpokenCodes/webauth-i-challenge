@@ -6,7 +6,7 @@ const helmet = require('helmet');
 const cors = require('cors');
 
 const authRouter = require('../auth/auth-router.js');
-const usersRouter = require('./users/users-model.js');
+const usersRouter = require('../users/users-router.js');
 
 const sessionOptions = {
     name: 'cookiemonster',
